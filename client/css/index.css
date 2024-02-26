@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  color: black;
+  font-family: "Maax-Regular", Arial, sans-serif;
+  cursor: auto;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@font-face {
+  font-family: "Maax-Regular";
+  src: url("../fonts/Maax_Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Maax-Medium";
+  src: url("../fonts/Maax_Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Maax-Bold";
+  src: url("../fonts/Maax_Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
